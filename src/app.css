@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  background-color: #f4eeee;
+}
+body {
+  font-size: 1.4rem;
+  margin: 0;
+}
+#main {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  transform: translateY(2px);
+  text-transform: uppercase;
+}
+
+#title {
+  font-size: 1.8rem;
+}
+
+#quote {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.4rem;
+  transform: translateY(-10px);
+  font-weight: 500;
+}
+
+#img-div {
+  /* width: 40%; */
+  max-width: 400px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+#image {
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+  border-radius: 50%;
+  padding: 1.2em;
+}
+
+#img-caption {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+#tribute-info {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.info {
+  padding-top: 1em;
+}
+
+.p-info {
+  line-height: 1.5;
+}
+
+.timeLine {
+  padding-top: 0.1em;
+}
+
+.achive {
+  padding-top: 0.1em;
+}
+
+#left-head {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#right-head {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#fotter {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#title::after {
+  content: " ";
+  display: block;
+  -webkit-box-shadow: 3px 3px 1px 1px rgb(192, 192, 192); /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 1px 1px rgb(192, 192, 192); /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 1px 1px rgb(192, 192, 192); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.timeLine__list > li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.achive__list > li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
